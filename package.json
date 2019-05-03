@@ -1,0 +1,30 @@
+{
+  "name": "lowdb-crypto-adapter",
+  "version": "0.0.1",
+  "description": "A lowdb adapter for encrypting data to be store",
+  "main": "adapter.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/proudbird/lowdb-crypto-adapter.git"
+  },
+  "keywords": [
+    "lowdb",
+    "adapter",
+    "database",
+    "storage",
+    "embed",
+    "embeddale",
+    "crypto",
+    "cryptographic",
+    "safe"
+  ],
+  "author": "Max Orlov <proudbird.mail@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/proudbird/lowdb-crypto-adapter/issues"
+  },
+  "homepage": "https://github.com/proudbird/lowdb-crypto-adapter#readme"
+}
