@@ -1,12 +1,12 @@
 
 # lowdb-crypto-adapter #
 
-A [lowdb](https://github.com/typicode/lowdb) adapter for encrypting data to be store
+A [lowdb](https://github.com/typicode/lowdb) adapter for encrypting data to be stored
 
-## Quickstart
+## Installation
 
 ```shell
-npm install lowdb-crypto-adapter
+npm install lowdb-crypto-adapter --save
 ```
 
 ## Usage
@@ -35,14 +35,6 @@ db.get('posts')
   .push({ id: 1, title: 'lowdb is awesome'})
   .write()
 
-// Set a user using Lodash shorthand syntax
-db.set('user.name', 'typicode')
-  .write()
-  
-// Increment count
-db.update('count', n => n + 1)
-  .write()
-
 ```
 
 ## API
@@ -55,7 +47,7 @@ Creates a new adapter for lowdb
 
 * `file` - (string) Path to the database file
 * `password` - (string) Sekret key, that will be used to encrypt/decrypt data
-* `[test]` - (boolen) If true, a connection to the database will be performed, and, if it will faled, an Error will be thrown
+* `[test]` - (boolen) If true, a connection to the database will be performed, and, if it will faled, an Error will be thrown. By default it is **true**
 
 ## License
 

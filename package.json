@@ -2,9 +2,9 @@
   "name": "lowdb-crypto-adapter",
   "version": "0.0.1",
   "description": "A lowdb adapter for encrypting data to be store",
-  "main": "adapter.js",
+  "main": "build/adapter.js",
   "scripts": {
-    "test": "test"
+    "test": "node build/test.js"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,11 @@
   "bugs": {
     "url": "https://github.com/proudbird/lowdb-crypto-adapter/issues"
   },
-  "homepage": "https://github.com/proudbird/lowdb-crypto-adapter#readme"
+  "homepage": "https://github.com/proudbird/lowdb-crypto-adapter#readme",
+  "dependencies": {
+    "lowdb": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^11.13.9"
+  }
 }
